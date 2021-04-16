@@ -9,6 +9,7 @@ public class SE_ue01_a4_main {
         Scanner pangramm = new Scanner(System.in);
         System.out.println("Prüfe ob Eingabe ein Pangramm ist: ");
         String check = pangramm.nextLine();//"Jeder wackere Bayer vertilgt bequem zwo Pfund Kalbshaxen.";
+        pangramm.close();
 
         System.out.println(check);
 
