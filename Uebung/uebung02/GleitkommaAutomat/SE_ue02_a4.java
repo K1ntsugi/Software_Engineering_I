@@ -1,5 +1,3 @@
-package Uebung.uebung02;
-
 import java.util.Scanner;
 
 public class SE_ue02_a4 {
