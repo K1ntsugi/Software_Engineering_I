@@ -11,3 +11,8 @@
 - Prüfungsfach
 - MatrikelNr
 - Prüfungsort
+
+
+## Klassen
+- Prüfung
+- Student
