@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "Uebung/uebung02/KarusellAutomat"
+        "Uebung/uebung02/KarusellAutomat",
+        "Uebung/uebung02/GleitkommaAutomat"
     ]
 }

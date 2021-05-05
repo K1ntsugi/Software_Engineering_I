@@ -9,13 +9,8 @@ public class SE_ue02_a4 {
 
         System.out.println("Bitte Zahl einlesen: ");
         data = read.nextLine();
-
-        System.out.println(isFloat(data));
-    }
-
-    /*public static boolean isFloat(String txt)
-    {
+        System.out.println(data.charAt(0));
         
-    }*/
-
+    }
+    
 }

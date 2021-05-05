@@ -1,0 +1,13 @@
+# Elemente
+- Prüfung
+- Student
+- Inhalt d. Prüfung
+- Voraussetung d. Prüfung
+- Dozent/Prüfer
+- Termin
+- Prüfungsart
+- Ergebnis/Note
+- Versuch
+- Prüfungsfach
+- MatrikelNr
+- Prüfungsort
