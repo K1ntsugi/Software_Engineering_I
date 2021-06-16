@@ -1,4 +1,4 @@
-<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>320</x><y>206</y><w>180</w><h>200</h></coordinates><panel_attributes>/Aktivitaet/
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>400</x><y>270</y><w>180</w><h>200</h></coordinates><panel_attributes>/Aktivitaet/
 /{abstract}/
 --
 - name: String
@@ -10,11 +10,11 @@
 + createBuchung(Teilnehmer[])
 + getBuchungen(): Buchung[]
 
-+ Absagen() </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>890</x><y>206</y><w>160</w><h>190</h></coordinates><panel_attributes>Teilnehmer
++ Absagen() </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>970</x><y>270</y><w>160</w><h>190</h></coordinates><panel_attributes>Teilnehmer
 /{abstract}/
 --
 --
-+ absagen()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1120</x><y>156</y><w>100</w><h>30</h></coordinates><panel_attributes>Einzelperson</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1120</x><y>256</y><w>100</w><h>30</h></coordinates><panel_attributes>Firma</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>610</x><y>246</y><w>210</w><h>190</h></coordinates><panel_attributes>Buchung
++ absagen()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1200</x><y>220</y><w>100</w><h>30</h></coordinates><panel_attributes>Einzelperson</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1200</x><y>320</y><w>100</w><h>30</h></coordinates><panel_attributes>Firma</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>690</x><y>310</y><w>210</w><h>190</h></coordinates><panel_attributes>Buchung
 --
 - buchungsNr: int 
 --
@@ -24,7 +24,7 @@
 + addTeilnehmer(Teilnehmer)
 + removeTeilnehmer(Teilnehmer)
 + getTeilnehmer() : Teilnehmer
-+ stornoBuchung()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>206</y><w>180</w><h>230</h></coordinates><panel_attributes>Dozent
++ stornoBuchung()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>90</x><y>270</y><w>180</w><h>230</h></coordinates><panel_attributes>Dozent
 --
 - persID: int
 - name: String
@@ -39,28 +39,28 @@
 + getLehrer(Aktivitaet)
 + setFachgruppe(Fachgruppe)
 + setLeiter(Aktivitaet)
-+ setLehrer(Aktivitaet)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>810</x><y>156</y><w>120</w><h>30</h></coordinates><panel_attributes>Zertifikat</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1040</x><y>166</y><w>100</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;50;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1040</x><y>216</y><w>100</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;80;50</additional_attributes></element><element><id>Relation</id><coordinates><x>920</x><y>156</y><w>220</w><h>40</h></coordinates><panel_attributes>lt=-&gt;
-m1=0..n</panel_attributes><additional_attributes>200;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>196</y><w>160</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
++ setLehrer(Aktivitaet)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>890</x><y>220</y><w>120</w><h>30</h></coordinates><panel_attributes>Zertifikat</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1120</x><y>230</y><w>100</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;50;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1120</x><y>280</y><w>100</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;80;50</additional_attributes></element><element><id>Relation</id><coordinates><x>1000</x><y>220</y><w>220</w><h>40</h></coordinates><panel_attributes>lt=-&gt;
+m1=0..n</panel_attributes><additional_attributes>200;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>260</y><w>160</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
 m1=0..n
 m2=1
-leitet</panel_attributes><additional_attributes>140;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>226</y><w>160</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+leitet</panel_attributes><additional_attributes>140;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>290</y><w>160</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
 fuert_durch
 m1=0..n
-m2=0..n</panel_attributes><additional_attributes>140;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>690</x><y>426</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>630</x><y>476</y><w>160</w><h>100</h></coordinates><panel_attributes>Rechnung
+m2=0..n</panel_attributes><additional_attributes>140;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>770</x><y>490</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>710</x><y>540</y><w>160</w><h>100</h></coordinates><panel_attributes>Rechnung
 --
 - isUnpaid() : Boolean 
 --
 
 + setPaid()
-+ isUnpaid(): Boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>700</x><y>386</y><w>300</w><h>240</h></coordinates><panel_attributes>lt=-&gt;
++ isUnpaid(): Boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>780</x><y>450</y><w>300</w><h>240</h></coordinates><panel_attributes>lt=-&gt;
 - istBezahlt: Boolean
 m1=1
-m2=1</panel_attributes><additional_attributes>270;10;270;220;10;220;10;190</additional_attributes></element><element><id>Relation</id><coordinates><x>740</x><y>126</y><w>140</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;50;10;10;120;10;120;30</additional_attributes></element><element><id>UMLClass</id><coordinates><x>210</x><y>46</y><w>200</w><h>50</h></coordinates><panel_attributes>Fachgruppe</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>250</x><y>86</y><w>160</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50;140;80;140;120</additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>66</y><w>140</w><h>160</h></coordinates><panel_attributes>lt=&lt;-
+m2=1</panel_attributes><additional_attributes>270;10;270;220;10;220;10;190</additional_attributes></element><element><id>Relation</id><coordinates><x>820</x><y>190</y><w>140</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;50;10;10;120;10;120;30</additional_attributes></element><element><id>UMLClass</id><coordinates><x>290</x><y>110</y><w>200</w><h>50</h></coordinates><panel_attributes>Fachgruppe</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>150</y><w>160</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50;140;80;140;120</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>130</y><w>140</w><h>160</h></coordinates><panel_attributes>lt=&lt;-
 unterrichtet
-m1=0..n</panel_attributes><additional_attributes>120;20;10;20;10;140</additional_attributes></element><element><id>Relation</id><coordinates><x>710</x><y>116</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>445</y><w>110</w><h>30</h></coordinates><panel_attributes>external_Seminar</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>435</y><w>110</w><h>30</h></coordinates><panel_attributes>internal_Seminar</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>395</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>395</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>106</y><w>700</w><h>360</h></coordinates><panel_attributes>lt=-&gt;
+m1=0..n</panel_attributes><additional_attributes>120;20;10;20;10;140</additional_attributes></element><element><id>Relation</id><coordinates><x>790</x><y>180</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>UMLClass</id><coordinates><x>500</x><y>509</y><w>110</w><h>30</h></coordinates><panel_attributes>external_Seminar</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>360</x><y>499</y><w>110</w><h>30</h></coordinates><panel_attributes>internal_Seminar</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>459</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>459</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>170</y><w>700</w><h>360</h></coordinates><panel_attributes>lt=-&gt;
 wird_gebucht
 m1=0..n
-m2=0..n</panel_attributes><additional_attributes>10;340;10;20;660;20;660;50</additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>276</y><w>860</w><h>410</h></coordinates><panel_attributes>lt=-&gt;
+m2=0..n</panel_attributes><additional_attributes>10;340;10;20;660;20;660;50</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>340</y><w>860</w><h>410</h></coordinates><panel_attributes>lt=-&gt;
 wird_gebucht
 m1=0..1
-m2=0..1</panel_attributes><additional_attributes>10;190;10;390;820;390;820;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>660</x><y>180</y><w>130</w><h>40</h></coordinates><panel_attributes>externe_Buchung</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>710</x><y>210</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>550</x><y>380</y><w>80</w><h>300</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;280;10;10;60;10</additional_attributes></element></diagram>
+m2=0..1</panel_attributes><additional_attributes>10;190;10;390;820;390;820;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>740</x><y>244</y><w>130</w><h>40</h></coordinates><panel_attributes>externe_Buchung</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>790</x><y>274</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>444</y><w>80</w><h>300</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;280;10;10;60;10</additional_attributes></element></diagram>
