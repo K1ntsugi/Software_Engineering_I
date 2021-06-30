@@ -1,0 +1,41 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>590</x><y>341</y><w>100</w><h>40</h></coordinates><panel_attributes>Controller
+--
++ run()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>491</y><w>140</w><h>50</h></coordinates><panel_attributes>Model
+--
++ quadrieren(i : int): int
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>820</x><y>481</y><w>120</w><h>70</h></coordinates><panel_attributes>View
+--
++ getInput(): int
++ setOutput(i: int)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>590</x><y>171</y><w>100</w><h>50</h></coordinates><panel_attributes>MVC
+--
++ main()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>371</y><w>160</w><h>140</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;120;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>680</x><y>361</y><w>160</w><h>140</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>140;120;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>491</y><w>390</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+im normalen MVC-Pattern
+aber nicht hier, weil passiver MVC</panel_attributes><additional_attributes>370;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>351</y><w>210</w><h>160</h></coordinates><panel_attributes>lt=&lt;.</panel_attributes><additional_attributes>190;10;10;10;10;140</additional_attributes></element><element><id>Relation</id><coordinates><x>580</x><y>211</y><w>80</w><h>150</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;create&gt;&gt;</panel_attributes><additional_attributes>10;130;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>680</x><y>211</y><w>60</w><h>150</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;call&gt;&gt;</panel_attributes><additional_attributes>10;130;10;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>790</x><y>241</y><w>470</w><h>130</h></coordinates><panel_attributes>Der Controller verbindet das Model mit dem Anwender, nimmt also dessen Eingaben 
+entgegen und leitet sie an das Model und die Views weiter. Auf diese
+Weise definiert der Controller erst, wie ein Anwender mit einer Anwendung
+interagieren kann.
+
+Auch hier kann es wiederum mehrere Controller geben, zum Beispiel für jede
+View einen eigenen. Oder aber ein Controller übernimmt die Arbeit für alle
+Views.</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>360</x><y>571</y><w>270</w><h>80</h></coordinates><panel_attributes>Das Model steht für die Daten einer Anwendung. 
+Dazu zählt die Speicherung
+der Daten, aber auch alle Operationen, 
+die auf den Daten ausgeführt werden
+können.</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>590</x><y>51</y><w>260</w><h>70</h></coordinates><panel_attributes>Gehört nicht zum MVC Pattern,
+sondern erstellt in dieser Aufgabenstellung 
+nur den Einstieg für die Implementierung dar</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>860</x><y>541</y><w>30</w><h>50</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;30</additional_attributes></element><element><id>Relation</id><coordinates><x>680</x><y>331</y><w>130</w><h>50</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;30;110;10</additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>111</y><w>30</w><h>80</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>531</y><w>30</w><h>60</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element><element><id>UMLNote</id><coordinates><x>820</x><y>571</y><w>230</w><h>200</h></coordinates><panel_attributes>Die View hat die Aufgabe, 
+die Daten des Models darzustellen, 
+repräsentiert also
+dessen visuelles Abbild.
+
+Eine Präsentation ist mit immer 
+genau einem Model verbunden, 
+deren Daten sie darstellt. 
+Andererseits kann aber ein Model 
+durchaus mehrere Views besitzen,
+wenn dieselben Daten eben auf 
+mehrere Arten dargestellt werden sollen.</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>1200</x><y>426</y><w>60</w><h>110</h></coordinates><panel_attributes>User</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>930</x><y>476</y><w>300</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+User input goes here</panel_attributes><additional_attributes>10;20;280;20</additional_attributes></element></diagram>
