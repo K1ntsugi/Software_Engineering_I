@@ -1,3 +1,5 @@
-public interface Modell {
-    int quadrieren(int i);
+public class Modell {
+    public int quadrieren(int i) {
+        return (int)Math.pow(i,2);
+    }
 }

@@ -1,0 +1,18 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLSpecialState</id><coordinates><x>370</x><y>170</y><w>20</w><h>20</h></coordinates><panel_attributes>type=initial
+1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>260</x><y>280</y><w>20</w><h>20</h></coordinates><panel_attributes>type=initial
+2</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>370</x><y>370</y><w>20</w><h>20</h></coordinates><panel_attributes>type=initial
+3</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>370</x><y>580</y><w>20</w><h>20</h></coordinates><panel_attributes>type=initial
+6</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>260</x><y>480</y><w>20</w><h>20</h></coordinates><panel_attributes>type=initial
+5</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>180</y><w>120</w><h>120</h></coordinates><panel_attributes>lt=-&gt;
+true</panel_attributes><additional_attributes>100;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>180</y><w>50</w><h>210</h></coordinates><panel_attributes>lt=-&gt;
+false</panel_attributes><additional_attributes>10;10;10;190</additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>290</y><w>120</w><h>110</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;10;100;90</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>380</y><w>130</w><h>120</h></coordinates><panel_attributes>lt=-&gt;
+true</panel_attributes><additional_attributes>110;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>380</y><w>50</w><h>220</h></coordinates><panel_attributes>lt=-&gt;
+false</panel_attributes><additional_attributes>10;10;10;200</additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>490</y><w>120</w><h>110</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;10;100;90</additional_attributes></element><element><id>UMLNote</id><coordinates><x>460</x><y>130</y><w>140</w><h>70</h></coordinates><panel_attributes>Note..
+bg=blue
+x:=0
+if x&gt;5 AND s&gt;0</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>150</y><w>100</w><h>50</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;30;80;20</additional_attributes></element><element><id>UMLNote</id><coordinates><x>470</x><y>330</y><w>140</w><h>70</h></coordinates><panel_attributes>Note..
+bg=blue
+x:=t+s
+if x&gt;5 OR t&lt;4</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>350</y><w>110</w><h>50</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;30;90;20</additional_attributes></element><element><id>UMLNote</id><coordinates><x>460</x><y>550</y><w>130</w><h>70</h></coordinates><panel_attributes>Note..
+bg=blue
+Sammelknoten</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>580</y><w>100</w><h>50</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;80;30</additional_attributes></element></diagram>

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class View extends Controller{
+public class View{
     public int getInput(){
         Scanner read = new Scanner(System.in);
         System.out.println("Bitte Ganzzahl zur Quadrierung eingeben: ");

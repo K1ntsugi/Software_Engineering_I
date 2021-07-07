@@ -1,16 +1,13 @@
-public class Controller extends MVC implements Modell{
+public class Controller {
 
-    public void runController() {
-        int x;
+    public void run() {
         View v = new View();
-        x = v.getInput();
-        int outputVal = quadrieren(x);
+        Modell m = new Modell();
+        int returnGetInput = v.getInput();
+        int outputVal = m.quadrieren(returnGetInput);
         v.userOutput(outputVal);
     }
 
-    @Override
-    public int quadrieren(int i) {
-        return i*i;
-    }
+    
 }
 
